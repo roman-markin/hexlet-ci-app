@@ -15,8 +15,6 @@ jobs:
       - uses: actions/setup-node@v3
       # Ставим зависимости
       - run: make setup
-      # Запускаем приложение
-      - run: make start
       # Запускаем линтер
       - run: make lint
       # Запускаем тесты
